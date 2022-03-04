@@ -1,7 +1,14 @@
+body {
+    margin: 0px;
+}
 img {
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
     margin: 10px;
+    transition: all 1s;
+}
+img:hover {
+    transform: scale(1.1);
 }
 .image-containers {
     display: flex;
@@ -17,4 +24,5 @@ h1 {
     border-right: 1px solid rgb(240, 138, 185);
     width: 300px;
     margin-top: 40px;
+    box-shadow: 1px 3px 3px 0px;
 }
