@@ -1,0 +1,20 @@
+img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+}
+.image-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    color: palevioletred;
+    border-bottom: 1px solid rgb(240, 138, 185);
+    border-right: 1px solid rgb(240, 138, 185);
+    width: 300px;
+    margin-top: 40px;
+}
